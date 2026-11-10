@@ -1,0 +1,16 @@
+{
+  "spec": "soulspec-inspired-manifest v1 (adapter, generated \u2014 persona files are the source)",
+  "name": "Purple Rat (generic example)",
+  "persona_files": [
+    "IDENTITY.md",
+    "AGENTS.md",
+    "SOUL.md"
+  ],
+  "card": "purple-rat.character.json",
+  "adapters": [
+    "Modelfile",
+    "openwebui-system-prompt.txt",
+    "sillytavern-note.md"
+  ],
+  "note": "Regenerate after any persona change: python3 nest/make_adapters.py --persona persona --out adapters"
+}
