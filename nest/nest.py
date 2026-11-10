@@ -14,7 +14,7 @@ Stdlib only. Python 3.11+.
 import sqlite3, sys, pathlib
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
-PERSONA_FILES = ["IDENTITY.md", "SOUL.md", "AGENTS.md"]
+PERSONA_FILES = ["IDENTITY.md", "SOUL.md", "AGENTS.md", "STEERING.md"]
 
 def build_prompt(persona_dir=None):
     persona_dir = pathlib.Path(persona_dir) if persona_dir else ROOT / "persona"

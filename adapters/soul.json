@@ -4,7 +4,8 @@
   "persona_files": [
     "IDENTITY.md",
     "AGENTS.md",
-    "SOUL.md"
+    "SOUL.md",
+    "STEERING.md"
   ],
   "card": "purple-rat.character.json",
   "adapters": [

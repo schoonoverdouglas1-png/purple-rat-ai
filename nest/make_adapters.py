@@ -16,7 +16,7 @@ import argparse, json, pathlib, sys
 
 def build_prompt(persona_dir):
     parts = []
-    for name in ("IDENTITY.md", "SOUL.md", "AGENTS.md"):
+    for name in ("IDENTITY.md", "SOUL.md", "AGENTS.md", "STEERING.md"):
         p = persona_dir / name
         if p.exists():
             parts.append(f"# {name}\n\n{p.read_text(encoding='utf-8')}")

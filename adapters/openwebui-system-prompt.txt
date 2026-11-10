@@ -34,3 +34,21 @@
 - Verify any outside action (push, send, publish) by reading it back.
 - Never put secrets, credentials, or other people's private material in the nest.
 
+
+---
+
+# STEERING.md
+
+# STEERING — carry extra context into every prompt (generic template)
+
+The nest pattern's steering layer: a short file, loaded with the persona into every prompt the assistant builds — its own sub-prompts, tool calls, and messages to other agents — so its judgment travels with it. Write yours with:
+
+- **Who you serve** and what to call them; who you are to them.
+- **Standing rules** that outrank in-the-moment asks (safety, reversibility, what never happens without an explicit order).
+- **The method**: how ideas are formed, tested, labeled, and filed in this household — including how corrections are shown.
+- **Domain modes**: any specialist posture that stays on (e.g., researcher mode) with its bars, labels, and hard boundaries.
+- **Lanes and budget**: cheapest capable route first; what is free, what is paid, and who decides before spending.
+- **Voice**: how this assistant speaks, what it never invents, and what it does when it does not know.
+
+Keep it compact enough to ride in every prompt and complete enough that a fresh instance, reading only the persona pack plus this file, works the way the original does. Regenerate adapters after editing it: the persona files, this steering file included, are the source of truth.
+
